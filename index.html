@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Twitch TV</title>
+
+    <script src="http://code.jquery.com/jquery-2.1.0.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+
+    <!--link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous"-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <!--https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/font/weathericons-regular-webfont.ttf-->
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Wikipedia Viewer</title>
+</head>
+<body>
+<div class="row v-border" style="height:100%">
+    <div class="col-3 v-border"></div>
+    <div class="col-6 v-border">
+        <!--div class="row v-border" style="height:10%">
+        </div-->
+        <div class="row align-center mb-5 mt-3">
+            <div class="col-12">
+                <div class="display-4 text-center bold">Twitch TV Streamers</div>
+            </div>
+        </div>
+        <div class="row">
+            <!--div class="col-1 v-border"></div-->
+            <div class="col-12">
+                <!-- Nav tabs -->
+                <ul class="nav nav-tabs nav-justified" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active" data-toggle="tab" href="#home">Streams</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#menu1">Settings</a>
+                    </li>
+                </ul>
+
+                <!-- Tab panes -->
+                <!--div class="tab-content">
+                    <div id="home" class="container tab-pane active"><br>
+                        <h3>HOME</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                    <div id="menu1" class="container tab-pane fade"><br>
+                        <h3>Menu 1</h3>
+                        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                </div-->
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 v-border">
+                <div class="tab-content">
+                    <div id="home" class="container tab-pane active"><br>
+                        <div id="ch-ESL-SC2" class="container v-border">
+                            <div class="row v-border">
+                                <div class="col-2 v-border">
+                                    <!--
+                                    https://static-cdn.jtvnw.net/jtv_user_pictures/esl_sc2-profile_image-d6db9488cec97125-300x300.jpeg
+                                    -->
+                                    <img class="img-fluid mt-3 mb-3" src="https://static-cdn.jtvnw.net/jtv_user_pictures/esl_sc2-profile_image-d6db9488cec97125-300x300.jpeg" alt="Logo">
+                                </div>
+                                <div class="col-8 v-border">
+
+                                </div>
+                                <div class="col-2 v-border mt-3">
+                                    <strong>Channel Status</strong>
+                                </div>
+                            </div>
+                        </div>
+                        <button onclick="test()" class="btn btn-primary">test</button>
+                        <button onclick="test1()" class="btn btn-primary">test1</button>
+                    </div>
+                    <div id="menu1" class="container tab-pane fade"><br>
+                        <p>some settings should be here</p>
+                    </div>
+                </div>
+
+
+            <!--div class="col-1 v-border"></div-->
+                <!--div class="form-group">
+                    <div class="input-group searchbox">
+                        <input type="text" id="search" name="searchtext" class="form-control" placeholder="Enter a keyword upon which a search has to be done..." required>
+                        <div class="input-group-btn">
+                            <button id="btn-search" onclick="search()" class="btn btn-default mr-1"><i class="fa fa-search"></i></button>
+                        </div>
+                        <button id="btn-random" class="btn ml-1" type="button" onclick="random()">Random page</button>
+                    </div>
+                </div-->
+            </div>
+            <!--div class="col-1">
+            </div-->
+        </div>
+
+        <div id="data" class="row" style="height:75%">
+            <!--div class="container " style="height:8vh" >
+                <a href="http://api.jquery.com/append/" target="_blank">
+                </a>
+            </div-->
+        </div>
+    </div>
+    <div class="col-3"></div>
+</div>
+
+
+<footer class="text-center">
+    <div class="row">
+        <div class="col-5"></div>
+        <div class="col-2">
+            <small>Written and coded by <a href="https://www.freecodecamp.org/alexkonkin" target="_blank"> Alexey Konkin </a></small>
+        </div>
+        <div class="col-5"></div>
+    </div>
+</footer>
+<script type="text/javascript" src="./js/main.js"></script>
+</body>
+</html>
